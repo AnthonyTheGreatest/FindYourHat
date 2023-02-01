@@ -72,8 +72,7 @@ class Field {
     };
     while (!youWin || !gameOver) {
       this.print();
-      //let response = prompt('Press l, r, u, or d to response (left, right, up, down)\n');
-      readline.question('Press l, r, u, or d to response (left, right, up, down)\n'
+      readline.question('Press l, r, u, or d to move (left, right, up, down)\n'
       , response => {
         if (response === 'r') {
             lineIndex ++;
