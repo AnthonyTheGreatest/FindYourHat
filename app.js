@@ -46,7 +46,7 @@ class Field {
   }
 
   print() {
-    this.field.forEach(line => console.log(line.join(' ')));
+    this.field.forEach(line => console.log(line.join('')));
   }
 
   play() {
